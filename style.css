@@ -1,0 +1,456 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@300;700&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Montserrat:wght@500;700&family=Open+Sans&family=Outfit:wght@300;700&family=Raleway&family=Red+Hat+Display:wght@500;700;900&display=swap');
+  :root {
+     --Very-Dark-Blue: hsl(243, 87%, 12%);
+     --Desaturated-Blue: hsl(238, 22%, 44%);
+     --Bright-Blue: hsl(224, 93%, 58%);
+     --Moderate-Cyan: hsl(170, 45%, 43%);
+     --Light-Grayish-Blue: hsl(240, 75%, 98%);
+     --Light-Gray: hsl(0, 0%, 75%);
+     /* font family */
+     --raleway: 'raleway', sans-serif ;
+     --open-san: 'open sans', sans-serif;
+  }
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: var(--raleway);
+}
+header{
+   max-width: 100%;
+   width: 100%;
+}
+.logo{
+   width: 5rem;
+}
+.logo img{
+   width: 100%;
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   padding: 15px;
+   padding-top: 25px;
+}
+.ahref a{
+   text-decoration: none;
+   color: var(--Very-Dark-Blue);
+   margin-right: 10px;
+}
+.first-container{
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content: center;
+}
+.first-image{
+   max-width: 360px;
+   margin: auto auto;
+}
+.first-image img{
+   width: 100%;
+}
+.first-paragraph{
+   text-align: center;
+   padding: 1.8rem;
+}
+.first-paragraph h4{
+   font-weight: 900;
+   font-size: 1.3rem;
+}
+.first-paragraph p{
+   font-size: 0.8rem;
+   font-weight: 700;
+   padding:  1rem 0;
+   color: black;
+   line-height: 1.3;
+}
+.input-section1{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.input-section1 input{
+   width: 90%;
+   height: 2rem;
+   border: 0.8px solid rgb(8, 8, 8);
+   border-radius: 3px;
+   
+}
+.input-section1 input::placeholder{
+   padding: 2rem;
+   
+}
+.input-section1 button {
+   width: 90%;
+   padding: 0.7rem;
+   background-color: var(--Bright-Blue);
+   color: white;
+   border: none;
+   border-radius: 2px;
+   margin-top: 15px;
+}
+.background-image{
+   max-width: 768px;
+}
+.background-image img{
+   width: 100%;
+   display: block;
+}
+.felx{
+   display: flex;
+   flex-direction: column-reverse;
+}
+.second-image{
+   max-width: 360px;
+   margin: auto auto;
+}.second-image img{
+   width: 100%;
+}
+/* .bacground-image{
+   margin: auto auto;
+}
+.ground-image img{
+   display: block;
+} */
+.back-ground{
+   background-color: var(--Light-Grayish-Blue);
+}
+.inner-section {
+   text-align: center;
+   padding: 1.5rem;
+   padding-top: 4rem;
+}.inner-section h4{
+   font-size: 1.2rem;
+   font-weight: 900;
+}
+.inner-section p{
+   margin-top: 1.2rem;
+   font-weight: 300;
+ }
+ .inner-section h1{
+   margin: auto auto ;
+   width: 10rem;
+   font-size: 0.9rem;
+   margin-top: 2rem;
+   color: var(--Moderate-Cyan);
+   padding: 0.6rem;
+   border-bottom: 2px solid var(--Moderate-Cyan);
+ }
+ .card{
+   width: 15rem;
+   margin: 3rem auto;
+   background-color: white;
+   font-weight: 500;
+   font-size: 0.7rem;
+   padding: 2rem;
+   line-height: 1.5;
+ }
+ .in-card{
+   display: flex;
+   justify-content: space-between;
+   width: 12rem;
+   align-items: center;
+
+ } 
+ .in-card-image{
+   max-width: 3rem;
+ } 
+ .in-card-image img{
+      width: 100%;
+      border-radius: 50%;
+ } 
+ .dev-name p{
+   font-weight: 900;
+ }
+ .third-section{
+   text-align: center;
+   padding: 2.5rem 1.5rem;
+   background-color: var(--Desaturated-Blue);
+   color: white;
+ }
+ .third-section h4{
+   font-size: 1.4rem;
+   padding: 1rem;
+ } 
+ .third-section p{
+   text-align: center;
+   line-height: 1.2;
+   letter-spacing: 1px;
+ }
+ .third-section input{
+   width: 90%;
+   height: 2rem;
+   border-radius: 3px;
+   border: none;
+   margin-top: 1.7rem;
+} 
+.third-section input::placeholder{
+   padding: 2rem;
+} 
+.third-section button{
+   width: 90%;
+   padding: 0.7rem 1.3rem;
+   background-color: var(--Bright-Blue);
+   color: white;
+   margin-top: 0.7rem;
+   border: none;
+   border-radius: 3px;
+ }
+footer{
+   padding: 2rem;
+   background-color: var(--Very-Dark-Blue);
+   color: white;
+}
+.space{
+   margin-top: 0.8rem;
+}
+.bigspace{
+   margin-top: 2rem;
+}
+.icon {
+   display: flex;
+}.icon p {
+  margin-left: 1rem;
+}
+.linking-icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+ .fa-brands {
+   width: 3rem;
+   height: 2rem;
+   border: 2px solid var(--Light-Grayish-Blue);
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 1rem;
+}
+@media screen and (min-width:1024px){
+   nav{
+     padding-left: 4rem;
+   }
+     .first-container{
+     flex-direction: row;
+   }
+   .felx{
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+   }
+   .first-paragraph{
+     text-align: left;
+     max-width: 29rem;
+     width: 100%;
+     padding-left: 4rem;
+   }
+   .first-paragraph h4{
+     line-height: 1.4;
+     font-size: 1.8rem;
+  }
+   .first-paragraph p{
+     font-size: 0.9rem;
+     font-weight: 500;
+  }
+  .background-image{
+     max-width: 1440px;
+  }
+  .background-image img{
+     width: 100%;
+     display: block;
+  }
+  .input-section1{
+     width: 80%;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+  }
+  .input-section1 input{
+     width: 60%;
+  
+  }
+  .input-section1 input::placeholder{
+    padding: 1rem;
+  
+  }
+  .input-section1 button{
+     width: 30%;
+     padding: 0.5rem;
+     margin-bottom: 1rem;
+     margin-left: 1rem;
+  
+  }
+  .inner-section{
+     text-align: left;
+     padding-left: 4rem;
+  }
+  .inner-section h4{
+    font-size: 1.8rem; 
+  }
+  .inner-section p{
+     font-size: 0.8rem;
+  }
+  .inner-section h1{
+     margin: 0;
+  }
+  .card{
+     margin-left: 4rem;
+  }
+  .third-section{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 4rem;
+  }
+  .third-section h4{
+     font-size: 1.7rem;
+     padding-left: 0;
+  }
+  .third-sectionleft{
+     text-align: left;
+     flex: 1;
+  
+  
+  }
+  .third-section p{
+     text-align: left;
+     font-size: 0.8rem;
+     line-height: 1.4;
+  }
+  .third-section h4{
+     
+  }
+  .input-section{
+     flex: 1;
+     text-align: left;
+  }
+  .input-section button{
+     max-width: 200px;
+     width: 100%;
+     
+  
+  }
+  footer{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 4rem;
+  }
+  }
+  @media screen and (min-width:768px){
+   nav{
+     padding-left: 2.5rem;
+   }
+     .first-container{
+     flex-direction: row;
+   }
+   .felx{
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+   }
+   .first-paragraph{
+     text-align: left;
+     max-width: 29rem;
+     width: 100%;
+     padding-left: 2.5rem;
+   }
+   .first-paragraph h4{
+     line-height: 1.2;
+     font-size: 1.4rem;
+  }
+   .first-paragraph p{
+     font-size: 0.7rem;
+     font-weight: 500;
+  }
+  .background-image{
+     max-width: 1440px;
+  }
+  .background-image img{
+     width: 100%;
+     display: block;
+  }
+  .input-section1{
+     width: 80%;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+  }
+  .input-section1 input{
+     width: 70%;
+     height: 1.8rem;
+  
+  }
+  .input-section1 input::placeholder{
+    padding: 0.8rem;
+  
+  }
+  .input-section1 button{
+     width: 30%;
+     /* height: 2rem; */
+     padding: 0.6rem 1rem;
+     margin-bottom: 1rem;
+     margin-left: 1rem;
+     font-size: 0.5rem;
+  
+  }
+  .inner-section{
+     text-align: left;
+     padding-left: 2.5rem;
+  }
+  .inner-section h4{
+    font-size: 1.1rem; 
+  }
+  .inner-section p{
+     font-size: 0.6rem;
+     line-height: 1.4;
+  }
+  .inner-section h1{
+     margin: 0;
+  }
+  .card{
+     margin-left: 2.5rem;
+  }
+  .third-section{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 2.5rem;
+  }
+  .third-section h4{
+     font-size: 1.4rem;
+     padding-left: 0;
+  }
+  .third-sectionleft{
+     text-align: left;
+     flex: 1;
+  
+  
+  }
+  .third-section p{
+     text-align: left;
+     font-size: 0.5rem;
+     line-height: 1.4;
+  }
+ 
+  .input-section{
+     flex: 1;
+     text-align: left;
+  }
+  .input-section button{
+     max-width:150px;
+     width: 100%;
+     font-size: 0.6rem;
+     
+  
+  }
+  footer{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 2.5rem;
+  }
+  }
+    
